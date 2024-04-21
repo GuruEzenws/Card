@@ -1,0 +1,78 @@
+/* *{
+  box-sizing: border-box;
+} */
+body{
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+   margin-top:10px; 
+}
+.container{
+  /* background-color: #555; */
+  padding: 0;
+  width: 320px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* border-radius: 20px; */
+  /* margin-top: -7px; */
+  align-items: center;
+}
+.content{
+  background-color: black;
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+
+}
+.container img{
+  width: 100%;
+  height: 70%;
+image-resolution: 180deg;
+  /* position: relative; */
+  border-radius: 20px 20px 0 0;
+}
+.info{
+  color: white;
+  text-align: center;
+  height: 300px;
+  /* padding: 7px; */
+  display: flex;
+  flex-direction: column;
+}
+.info-item{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+button{
+  padding: 5px;
+  margin: 10px;
+}
+.about{
+  color: white;
+  margin: 35px 15px 0 15px;
+  line-height: 13px;
+  text-align: justify;
+  /* padding: 20px; */
+}
+.interest{
+  color: white;
+  margin: -5px 15px 0 15px;
+  line-height: 15px;
+  text-align: justify;
+}
+.interest > ul{
+  margin-left: -13px;
+}
+.social{
+  color: white;
+  /* display: flex;
+  flex-direction: row; */
+}
+.social-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px 10px -13px;
+  list-style: none;
+}
